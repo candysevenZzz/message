@@ -1,0 +1,22 @@
+{
+  "name": "Candy's Framework",
+  "description": "PHP Framework",
+  "type": "framework",
+  "keywords": [
+    "PHP","PHP Framework"
+  ],
+  "require": {
+    "php": ">=7.2",
+    "filp/whoops": "2.7.*",
+    "symfony/var-dumper": "4.4.*",
+    "catfan/medoo": "1.7.*",
+    "ext-pdo": "*",
+    "twig/twig": "2.12.*"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
